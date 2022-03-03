@@ -9,7 +9,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "tb_task")
 public class Task extends Lesson {
-private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L;
 
 	private String description;
 	private Integer questionCount;
